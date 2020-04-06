@@ -1,0 +1,25 @@
+Java资源库原创教程《JavaScript脚本语言轻松入门》
+讲师：李伟
+
+第十二课、Math与Date对象介绍
+
+1、Math对象
+
+	在使用Math对象时不能使用new关键字创建实例，而是直接使用对象名.成员 这种格式
+	  alert(Math.PI);
+	  alert(Math.random());
+	  alert(Math.max(3,76,21,90,5,6,-5,-903));
+	  alert(Math.min(3,76,21,90,5,6,-5,-903));
+
+2、Date对象
+	
+	var now=new Date();//创建Date对象
+	var year=now.getFullYear();//获取年份
+	var month=now.getMonth()+1;//获得月份
+	var date=now.getDate();//获取日期
+	var day=now.getDay();//获取星期
+	var hour=now.getHours();//获取小时
+	var minutes=now.getMinutes();//获取分钟
+	var sec=now.getSeconds();//获取秒
+
+	更多资料请加入Java资源库官方群：253190527

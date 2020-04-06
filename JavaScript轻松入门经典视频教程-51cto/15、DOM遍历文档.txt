@@ -1,0 +1,26 @@
+Java资源库原创教程《JavaScript脚本语言轻松入门》
+讲师：李伟
+
+第十五课、DOM遍历文档
+
+1、遍历文档
+	在DOM中，HTML文档各个节点被视为各种类型的Node对象，并且将HTML文档表示为
+	Node对象的树。
+
+			    Node对象的属性
+
+	属性		类型		描述
+	parentNode	Node		节点的父节点，没有父节点是为null
+	childNodes	NodeList	节点的所有子节点的NodeList
+	firstChild	Node		节点的第一个子节点，没有则为null
+	lastChild	Node		节点的最后一个子节点，没有则为null
+	nodeName	String		节点名
+	nodeValue	String		节点值
+	previousSibling Node		上一个兄弟节点
+	nextSibling	Node		下一个兄弟节点
+	nodeType	short		表示节点类型的常量
+	
+	Element <a > <img >
+	Text  文本
+
+	更多资料请加入Java资源库官方群：253190527

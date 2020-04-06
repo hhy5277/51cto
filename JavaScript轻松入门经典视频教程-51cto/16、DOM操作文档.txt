@@ -1,0 +1,31 @@
+Java资源库原创教程《JavaScript脚本语言轻松入门》
+讲师：李伟
+
+第十六课、DOM操作文档
+
+			Node对象的常用方法
+
+	方法					描述
+	insertBefore(newChild,refChild)		在现有节点refChild之前插入节点
+						newChild
+	
+	replaceChild(newChild,oldChild)		将子节点清单中的子节点oldChild
+						换成newChild，并返回oldChild节点
+	
+	removeChild(oldChild)			将子节点清单中的子节点oldChild
+						删除，并返回oldChild节点
+
+	appendChild(newChild)			将节点newChild添加到该节点的子节点
+						清单末尾。如果newChild已经在树中，
+						则先将其删除
+
+	hasChildNodes()				返回一个布尔值，表示节点是否有子节点
+
+	cloneNode(deep)				返回这个节点的拷贝（包括属性）。如果
+						deep为true则拷贝所有包含的节点，否则
+						只拷贝这个节点。
+
+	课下作业：新增一个功能，能够删除指定的行数。删除之前要进行判断输入的内容
+	是否合法。
+
+	更多资料请加入Java资源库官方群：253190527
